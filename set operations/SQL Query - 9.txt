@@ -1,0 +1,3 @@
+SELECT * FROM empdept1 LEFT JOIN empdept2 
+USING (empcode, empfname, emplname, job)
+WHERE empdept2.empcode IS NULL;

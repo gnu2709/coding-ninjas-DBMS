@@ -1,0 +1,4 @@
+SELECT * FROM Empdept1 WHERE job = 'salesman'
+UNION ALL
+SELECT * FROM Empdept2 
+WHERE job = 'salesman';

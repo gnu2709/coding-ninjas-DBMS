@@ -1,0 +1,3 @@
+SELECT item_name, price FROM shop_1 RIGHT JOIN shop_2
+USING(item_name, price)
+WHERE shop_2.price>50;

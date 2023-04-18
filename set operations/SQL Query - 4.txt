@@ -1,0 +1,4 @@
+SELECT item_name, item_type, price FROM shop_1
+UNION ALL
+SELECT item_name, item_type, price FROM shop_2
+ORDER BY PRICE desc;

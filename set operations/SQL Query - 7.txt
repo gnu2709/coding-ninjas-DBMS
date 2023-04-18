@@ -1,0 +1,2 @@
+SELECT DISTINCT item_name, item_type FROM shop_1 INNER JOIN shop_2
+USING (item_name, item_type) WHERE item_type = 'stationery';

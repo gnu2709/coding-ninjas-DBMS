@@ -1,0 +1,2 @@
+SELECT DISTINCT item_name, price FROM shop_1 INNER JOIN shop_2
+USING(item_name, price) WHERE price >20;

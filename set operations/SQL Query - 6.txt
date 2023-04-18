@@ -1,0 +1,3 @@
+
+SELECT DISTINCT * FROM empdept1 INNER JOIN empdept2
+USING (empcode, empfname, emplname, job);
